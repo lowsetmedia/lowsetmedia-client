@@ -35,7 +35,7 @@
 
             <section class="booking-form">
 
-                <form action="https://formspree.io/f/mreykoak" method="POST" class="booking-form">
+                <form id="booking-form" class="booking-form">
 
                     <!-- CONTACT INFO -->
 
@@ -213,6 +213,30 @@
         <script src="../assets/js/include.js"></script>
         <script src="../assets/js/navScroll.js"></script>
         <script src="../assets/js/main.js"></script>
+
+        <script>
+            document.getElementById("booking-form").addEventListener("submit", async (e) => {
+                const formData = new FormData(e.target);
+                const data = Object.fromEntries(formData.entries());
+
+                const res = await fetch("../api/book", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await res.json();
+
+                if (result.success) {
+                    alert("Booking request sent!");
+                    e.target.reset();
+                } else {
+                    alert("Something went wrong.");
+                }
+            });
+        </script>
         
     </body>
 
