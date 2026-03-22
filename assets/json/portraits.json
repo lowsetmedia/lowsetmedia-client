@@ -1,0 +1,47 @@
+[
+    {
+        "slug": "ae2_The_National",
+        "title": "002",
+        "category": "editorial",
+        "image": "../assets/images/project_preview/portrait/5.webp",
+        "folder": "../assets/images/imgdb/2026/02-28/portrait/editorial",
+        "imageCount": 1,
+        "fullImages": [1]
+    },
+    {
+        "slug": "ae1_Motorcycle_Couple",
+        "title": "001",
+        "category": "editorial",
+        "image": "../assets/images/project_preview/portrait/4.webp",
+        "folder": "../assets/images/imgdb/2026/02-27/editorial",
+        "imageCount": 3,
+        "fullImages": [2]
+    },
+    {
+        "slug": "02-20-2026_Astro",
+        "title": "02-20 - Astro",
+        "category": "individual",
+        "image": "../assets/images/project_preview/portrait/2.webp",
+        "folder": "../assets/images/imgdb/2026/02-20/portrait/astro",
+        "imageCount": 12,
+        "fullImages": [7]
+    },
+    {
+        "slug": "02-20-2026_Sage",
+        "title": "02-20 - Sage",
+        "category": "individual",
+        "image": "../assets/images/project_preview/portrait/3.webp",
+        "folder": "../assets/images/imgdb/2026/02-20/portrait/sage",
+        "imageCount": 5,
+        "fullImages": []
+    },
+    {
+        "slug": "10-05-2025_Caroline",
+        "title": "10-05 - Caroline",
+        "category": "individual",
+        "image": "../assets/images/project_preview/portrait/1.webp",
+        "folder": "../assets/images/imgdb/2025/10-05/caroline",
+        "imageCount": 12,
+        "fullImages": []
+    }
+]

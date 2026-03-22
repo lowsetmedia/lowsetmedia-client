@@ -1,0 +1,58 @@
+/* Work Page Specific Styles */
+
+/* Work Category Grid */
+.work-categories {
+  padding: 2rem 1rem 4rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.category-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.35);
+  color: white;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.category-overlay h2 {
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
+}
+
+.category-card:hover img {
+  transform: scale(1.06);
+}
+
+.category-card:hover .category-overlay {
+  background: rgba(0,0,0,0.5);
+}
+
+

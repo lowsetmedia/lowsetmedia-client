@@ -1,0 +1,11 @@
+[
+    {
+        "slug": "02-20-2026_Andres_Birthday",
+        "title": "02-20-2026 - Andre's Birthday",
+        "category": "birthday",
+        "image": "../assets/images/project_preview/events/1.webp",
+        "folder": "../assets/images/imgdb/2026/02-20/event",
+        "imageCount": 30,
+        "fullImages": [2,10,20,24]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "slug": "02-28-2026_Cookie_Monster",
+        "title": "02-28-26 - Cookie Monster Suzuki GSX-8R",
+        "category": "motorcycles",
+        "image": "../assets/images/project_preview/automotive/auto5.webp",
+        "folder": "../assets/images/imgdb/2026/02-28/automotive",
+        "imageCount": 8,
+        "fullImages": [4,6]
+    },
+    {
+        "slug": "02-27-2026_Cookie_Monster",
+        "title": "02-27-26 - Cookie Monster Suzuki GSX-8R",
+        "category": "motorcycles",
+        "image": "../assets/images/project_preview/automotive/auto4.webp",
+        "folder": "../assets/images/imgdb/2026/02-27/automotive",
+        "imageCount": 20,
+        "fullImages": [6,11,14,17,20]
+    },
+    {
+        "slug": "02-21-2026_Drift_Event",
+        "title": "02-21-26 - Drift Event",
+        "category": "cars",
+        "image": "../assets/images/project_preview/automotive/auto3.webp",
+        "folder": "../assets/images/imgdb/2026/02-21",
+        "imageCount": 5,
+        "fullImages": [2,4]
+    },
+    {
+        "slug": "08-05-2025_Kenzies_Kawasaki_Ninja_ZX6R",
+        "title": "08-05-2025 - Kawasaki Ninja ZX6R",
+        "category": "motorcycles",
+        "image": "../assets/images/project_preview/automotive/auto2.webp",
+        "folder": "../assets/images/imgdb/2025/08-05/kenzie",
+        "imageCount": 11,
+        "fullImages": [3,10]
+    },
+    {
+        "slug": "08-05-2025_Aidens_Kawasaki_1100SX",
+        "title": "08-05-2025 - Kawasaki Ninja 1100SX",
+        "category": "motorcycles",
+        "image": "../assets/images/project_preview/automotive/auto1.webp",
+        "folder": "../assets/images/imgdb/2025/08-05/aiden",
+        "imageCount": 5,
+        "fullImages": [4]
+    }
+]

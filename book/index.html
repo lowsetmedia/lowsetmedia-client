@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LØWSET Media</title>
+        <link rel="icon" type="image/png" href="../assets/logos/logo.png">
+        <link rel="stylesheet" href="../assets/css/global.css">
+
+        <link rel="stylesheet" href="../assets/css/book.css">
+
+    </head>
+
+    <body>
+
+        <div data-include="../assets/components/navbar.html"></div>
+
+        <main>
+
+            <!-- HERO SECTION -->
+            <section class="hero hero-small">
+
+                <div class="hero-content">
+
+                    <h1>Book Now</h1>
+                    <p>
+                        Fill out the form below and I'll get back to you within 24 hours.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <section class="booking-form">
+
+                <form action="https://formspree.io/f/mreykoak" method="POST" class="booking-form">
+
+                    <!-- CONTACT INFO -->
+
+                    <h2>Contact Information</h2>
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+
+                    </div>
+
+                    <!-- SHOOT INFO -->
+
+                    <h2>Shoot Information</h2>
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+                            <label for="shoot_type">Shoot Type *</label>
+                            <select id="shoot_type" name="shoot_type" required>
+                                <option value="">Select a session</option>
+                                <option>Portrait Session</option>
+                                <option>Couples Session</option>
+                                <option>Family Session</option>
+                                <option>Automotive</option>
+                                <option>Event</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location">Location(s)</label>
+                            <input type="text" id="location" name="location">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <input type="time" id="time" name="time">
+                        </div>
+
+                    </div>
+
+                    <!-- DETAILS -->
+
+                    <h2>Shoot Details</h2>
+
+                    <div class="form-group full-width">
+                        <label for="details">Tell me about the shoot</label>
+                        <textarea id="details" name="details" rows="5"></textarea>
+                    </div>
+
+                    <!-- SPAM PROTECTION -->
+
+                    <input type="text" name="_gotcha" style="display:none">
+
+                    <!-- SUBMIT -->
+
+                    <button type="submit" class="submit-btn">Send Booking Request</button>
+
+                </form>
+
+                
+
+            </section>
+
+            <section class="section">
+
+                <h2>Prefer direct contact?</h2>
+                <p>
+                    Email: contact@lowset.media
+                </p>
+                <p>
+                    Instagram: @lwsrevvx
+                </p>
+
+            </section>
+
+            <section class="section faq">
+
+                <h2>FAQs</h2>
+                <p style="margin-bottom:80px;" >Here's a couple of frequently asked questions:</p>
+
+                <div class="qa">
+
+                    <h3 class="question">How long until I hear back?</h3>
+                    <p class="answer">
+                        I try to respond within 24 hours.
+                    </p>
+
+                </div>
+
+                <div class="qa">
+
+                    <h3 class="question">Do you travel?</h3>
+                    <p class="answer">
+                        As of right now, not outside of Hampton Roads and Richmond.
+                    </p>
+
+                </div>
+
+                <div class="qa">
+
+                    <h3 class="question">How do payments work?</h3>
+                    <p class="answer">
+                        a
+                    </p>
+
+                </div>
+
+                <div class="qa">
+
+                    <h3 class="question">What if it rains?</h3>
+                    <p class="answer">
+                        If it's enough to get in the way of the shoot, we can reschedule.
+                    </p>
+
+                </div>
+
+                <div class="qa">
+
+                    <h3 class="question">Can you pose me?</h3>
+                    <p class="answer">
+                        nope!
+                    </p>
+
+                </div>
+
+                <div class="qa">
+
+                    <h3 class="question">Are locations provided?</h3>
+                    <p class="answer">
+                        The location is up to the client.
+                    </p>
+
+                </div>
+
+                <div class="qa">
+
+                    <h3 class="question"></h3>
+                    <p class="answer">
+                        
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <div data-include="../assets/components/footer.html"></div>
+
+        <script src="../assets/js/include.js"></script>
+        <script src="../assets/js/navScroll.js"></script>
+        <script src="../assets/js/main.js"></script>
+        
+    </body>
+
+</html>
