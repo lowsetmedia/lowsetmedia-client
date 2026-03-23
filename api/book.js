@@ -15,17 +15,26 @@ export default async function handler(req, res) {
   try {
     // 1. Save to Supabase
     const { error: dbError } = await supabase
-      .from("bookings")
+      .from("requests")
       .insert([
         {
-          name: data.name,
+          first_name: data.first_name,
+          last_name: data.last_name,
           email: data.email,
           phone: data.phone,
-          address: data.address,
+
           shoot_type: data.shoot_type,
-          location: data.location,
-          date: data.date,
-          time: data.time,
+          package_id: data.package_id || null,
+
+          location_line1: data.location_line1,
+          location_line2: data.location_line2,
+          location_city: data.location_city,
+          location_state: data.location_state,
+          location_zip: data.location_zip,
+
+          start_at: new Date(`${data.date}T${data.time}`),
+          end_at: null,
+
           details: data.details
         }
       ]);
@@ -51,7 +60,7 @@ export default async function handler(req, res) {
         subject: "New Booking Request",
         htmlContent: `
           <h2>New Booking</h2>
-          <p><strong>Name:</strong> ${data.name}</p>
+          <p><strong>Name:</strong> ${data.first_name} ${data.last_name || ""}</p>
           <p><strong>Email:</strong> ${data.email}</p>
           <p><strong>Shoot:</strong> ${data.shoot_type}</p>
           <p><strong>Date:</strong> ${data.date}</p>
